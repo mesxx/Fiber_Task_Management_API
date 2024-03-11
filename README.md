@@ -18,13 +18,25 @@
   cp .env.example .env
 ```
 
-4. Install dependencies
+4. Add `publics/documents` directory
+
+```bash
+  mkdir publics/documents
+```
+
+5. Add `publics/images` directory
+
+```bash
+  mkdir publics/images
+```
+
+6. Install dependencies
 
 ```bash
   go mod tidy
 ```
 
-5. Start the server
+7. Start the server
 
 ```bash
   go run main.go
